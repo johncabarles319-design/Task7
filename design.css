@@ -1,0 +1,114 @@
+/* Body and General Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Profile Header Styles */
+.profile-header {
+    background-color: #ffffff;
+}
+
+.profile-image-main img {
+    border: 2px solid #e9ecef;
+}
+
+.social-links-main a {
+    transition: color 0.3s ease;
+}
+
+.social-links-main a:hover {
+    color: #0066cc !important;
+}
+
+.university-badge {
+    border: 1px solid #e9ecef;
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.card-text {
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+/* Experience Styles */
+.experience-item h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+/* Hobby Styles */
+.hobby-item h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+/* Certification Styles */
+.cert-item h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+/* Tech Stack Badges */
+.badge {
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+/* Project Styles */
+.project-item h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+/* Links */
+a {
+    transition: all 0.3s ease;
+}
+
+a.text-decoration-none:hover {
+    color: #0066cc !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .university-badge {
+        margin-top: 1rem;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .profile-info-main {
+        width: 100%;
+    }
+    
+    .social-links-main {
+        flex-direction: column;
+        gap: 0.5rem !important;
+    }
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
